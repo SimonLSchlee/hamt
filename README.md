@@ -28,6 +28,7 @@ without needing an allocator and then frozen and queried at runtime.
 If you have ideas for improvements, feel free to open an issue.
 
 ## Docs
+https://simonlschlee.github.io/hamt/
 
 ## Examples
 
