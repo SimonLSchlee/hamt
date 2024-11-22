@@ -19,13 +19,13 @@ jobs:
         with:
           version: 0.13.0
 
-      - name: Run `doc`
+      - name: Run `docs`
         run: zig build docs
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: zig-out/doc/
+          path: zig-out/docs/
 
   deploy:
     needs: emit
