@@ -20,7 +20,7 @@ jobs:
           version: 0.13.0
 
       - name: Run `doc`
-        run: zig build doc
+        run: zig build docs
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
